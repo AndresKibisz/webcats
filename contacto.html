@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Cuchurim Y Ceniza</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    
+    <div class="contenedor-formulario">
+        <form>
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="escribi tu nombre" required>
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="nombre" name="nombre" placeholder="escribi tu apellido" required>
+            <label for="mail"> Email: </label>
+            <input type="email" name="mail" id="mail" placeholder="escribi tu mail"required>
+            <label for="pais">Pais: </label>
+            <select name="pais" id="pais" >
+            <option value="Argetina">Argentina</option>     
+            <option value="Fracia">Fracia</option>     
+            <option value="Colombia">Colombia</option>     
+            <option value="Alemania">Alemania</option>     
+            <option value="España">España</option>     
+            <option value="Uruguay">Uruguay</option>     
+            <option value="Paraguay">Paraguay</option>     
+            <option value="Italia">Italia</option>     
+            <option value="Canada">Canada</option>     
+            <option value="Inglaterra">Inglaterra</option>     
+            <option value="Irlanda">Irlanda</option>     
+            </select>
+            <label for="comentario">comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribi aqui tu comentario"></textarea>
+            <label for="motivo">Motivo de contacto:</label>
+            <input type="radio" id="motivo" name="motivo "><i>Quiero una foto</i>
+            <input type="radio" id="motivo" name="motivo "><i>Reclamos</i>
+            <input type="radio" id="motivo" name="motivo "><i>Soy fan</i>
+            
+            <input type="submit" value="Enviar">
+
+        </form> 
+    </div>
+    
+    
+    <footer class="footer">
+        <p>Derechos Reservados cuchu y ceni &copy; 2023</p>
+    </footer>
+
+</body>
+</html>
